@@ -1,0 +1,4 @@
+#!/usr/bin/env mongo
+
+// List all documents in the "scholl" collection
+db.school.find().forEach(printjson)

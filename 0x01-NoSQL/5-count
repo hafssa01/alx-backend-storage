@@ -1,0 +1,4 @@
+#!/usr/bin/env mongo
+
+// Count the number of documents in the "school" collection
+print(db.school.count())

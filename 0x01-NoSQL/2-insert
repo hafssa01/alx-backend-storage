@@ -1,0 +1,4 @@
+#!/usr/bin/env mongo
+
+// Insert a document with a "name" attribute set to "Holberton school"
+db.school.insert({ name: "Holberton school" })

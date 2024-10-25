@@ -1,0 +1,7 @@
+#!/usr/bin/env mongo
+
+// Update all documents with name="Holberton school" by adding an address attribute
+db.scholl.updateMany(
+    { name: "Holberton school" },
+    { $set: { adress: "972 Mission street" } }
+)
